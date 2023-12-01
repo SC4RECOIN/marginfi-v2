@@ -16,7 +16,7 @@ cfg_if::cfg_if! {
     if #[cfg(feature = "mainnet-beta")] {
         declare_id!("MFv2hWf31Z9kbCa1snEPYctwafyhdvnV7FZnsebVacA");
     } else if #[cfg(feature = "devnet")] {
-        declare_id!("neetcne3Ctrrud7vLdt2ypMm21gZHGN2mCmqWaMVcBQ");
+        declare_id!("A7vUDErNPCTt9qrB6SSM4F6GkxzUe9d8P3cXSmRg4eY4");
     } else {
         declare_id!("Mfi1111111111111111111111111111111111111111");
     }
